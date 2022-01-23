@@ -13,3 +13,13 @@ Host lb-aliyun
 ```
 
 > 如果脚本以 `-cn` 结尾，代表此脚本专门针对 GFW 优化。比如配置了镜像。
+
+## Raw Link
+
+前缀：`https://raw.githubusercontent.com/pluveto/onekey/main/`
+
+通过下面的方式可以直接执行网络脚本：
+
+```sh
+bash <(curl -s http://mywebsite.com/myscript.txt)
+```
