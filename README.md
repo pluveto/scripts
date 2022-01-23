@@ -1,4 +1,5 @@
 # onekey
+
 收集自用 Linux 一键安装脚本。每次都查官网太麻烦了。
 
 ## Proxy
@@ -11,6 +12,8 @@ Host lb-aliyun
     User root
     RemoteForward 7890 localhost:7890
 ```
+
+也可以利用 [cntlm](https://note.qidong.name/2018/11/cntlm-proxy/) 等工具。
 
 > 如果脚本以 `-cn` 结尾，代表此脚本专门针对 GFW 优化。比如配置了镜像。
 
