@@ -8,3 +8,4 @@ apt install clang \
 
 git config --global user.name "i@pluvet.com"
 git config --global user.email "pluveto"
+git config --global credential.helper store 
