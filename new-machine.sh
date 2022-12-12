@@ -6,6 +6,6 @@ apt install clang \
             vim \
             sqlite3 -y
 
-git config --global user.name "i@pluvet.com"
-git config --global user.email "pluveto"
+git config --global user.email "i@pluvet.com"
+git config --global user.name "pluveto"
 git config --global credential.helper store 
